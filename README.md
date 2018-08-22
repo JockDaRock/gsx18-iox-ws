@@ -67,7 +67,7 @@ $ docker build -t ioxwebapp:latest .
 * Now let's quickly test our container with the following command.
 
 ```bash
-$ docker run -it -p 40000:8000 ioxbapp:latest
+$ docker run -it -p 40000:8000 ioxwebapp:latest
 ```
 
 * Once the app is running navigate to [http://0.0.0.0:40000/time](http://0.0.0.0:40000/time) in your browser.
